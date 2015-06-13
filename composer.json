@@ -1,0 +1,17 @@
+{
+  "name" : "malantonio/wms-pull-list",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/OCLC-Developer-Network/oclc-auth-php.git"
+    }
+  ],
+  
+  "require": { 
+    "oclc/auth": "^1.0" 
+  },
+
+  "autoload": {
+    "psr-0": { "WMSPullList": "" }
+  }
+}
